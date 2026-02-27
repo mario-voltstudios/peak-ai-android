@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample data extraction rules file; uncomment and update the following rules as needed.
+   Full documentation is available at: https://developer.android.com/about/versions/12/backup-restore
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Never back up health data -->
+        <exclude domain="database" path="peak_ai_log.db" />
+        <exclude domain="sharedpref" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="database" path="peak_ai_log.db" />
+    </device-transfer>
+</data-extraction-rules>

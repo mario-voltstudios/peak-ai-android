@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peak AI</string>
+    <string name="health_connect_rationale_title">Why Peak AI needs Health Connect</string>
+    <string name="health_connect_rationale_body">Peak AI reads your HRV, sleep, heart rate, SpO₂, and steps to compute your daily readiness score and personalized coaching. All data stays on your device — nothing is uploaded to any server.</string>
+</resources>
